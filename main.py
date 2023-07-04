@@ -1,11 +1,11 @@
-import FastAPI
+import fastapi
 import pandas as pd
 #from fastapi import File, UploadFile, FastAPI
 import uvicorn 
 
 #from starlette.responses import RedirectResponse
 
-app=FastAPI(title='Consulta de FILMS')
+app=fastapi(title='Consulta de FILMS')
 
 @app.get("/")
 
