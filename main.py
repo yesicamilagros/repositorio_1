@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+import FastAPI
 import pandas as pd
 #from fastapi import File, UploadFile, FastAPI
 import uvicorn 
